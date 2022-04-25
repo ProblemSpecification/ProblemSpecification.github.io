@@ -200,7 +200,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 2.75em; /* Size of "Research" */
 		line-height: 1.5em;
 	}
 
@@ -2267,8 +2267,21 @@ input, select, textarea {
 	}
 
 /* Image */
+.image {
+	width: 20%;
+	border-radius: 100%;
+	margin: 0 3em 0 0;
+	display: block;
+	background-color: #000000
+}
 
-	.image {
+	.image img {
+		display: block;
+		border-radius: 100%;
+		width: 100%;
+		background-color: #000000
+	}
+	/*.image {
 		border-radius: 6px;
 		border: 0;
 		display: inline-block;
@@ -2402,7 +2415,7 @@ input, select, textarea {
 
 			.image.phone .inner:after {
 				border-color: #e6e6e6;
-			}
+			}*/
 
 /* List */
 
@@ -2582,6 +2595,11 @@ input, select, textarea {
 
 		}
 
+	.icons {
+		text-align: center;
+		transform: translateY(-100%);
+	}
+
 /* Icons */
 
 	ul.icons {
@@ -2755,14 +2773,14 @@ input, select, textarea {
 
 		.spotlight .image {
 			width: 30%;
-			border-radius: 100%;
+			border-radius: 5%;
 			margin: 0 3em 0 0;
 			display: block;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
+				border-radius: 5%;
 				width: 100%;
 			}
 
@@ -2918,8 +2936,8 @@ input, select, textarea {
 
 	.wrapper {
 		padding: 4.5em 0 2.5em 0 ;
-		background-color: #ffffff;
-		border-bottom: solid 2px #eeeeee;
+		background-color: #eeeeee; /* background of Research section */
+		border-bottom: solid 2px #cccccc; /*boarder color */
 	}
 
 		.wrapper > .inner {
@@ -2929,7 +2947,7 @@ input, select, textarea {
 		}
 
 			.wrapper > .inner.alt > * {
-				border-top: solid 2px #eeeeee;
+				border-top: solid 2px #cccccc; /*boarder color in Reseaerch Section*/
 				margin-bottom: 0;
 				margin-top: 3em;
 				padding-top: 3em;
@@ -3611,8 +3629,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-color: #4696e5;
-		color: #d1e5f9;
+		color: #eeeeee; /* color of bio*/
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -3626,12 +3643,13 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
 		height: 100vh;
 		min-height: 35em;
+		background-image: url("../../images/website_background.png");
+		background-size: 300px;
 	}
 
 		#header input[type="submit"],
@@ -3671,7 +3689,7 @@ input, select, textarea {
 			}
 
 		#header label {
-			color: #ffffff;
+			color: #ffffff
 		}
 
 		#header input[type="text"],
@@ -3742,11 +3760,11 @@ input, select, textarea {
 		}
 
 		#header .icon {
-			color: #b5d5f5;
+			color: #999999;  /* Change Color of Icons in Header */
 		}
 
 		#header .image {
-			box-shadow: 0 0 0 4px #4696e5, 0 0 0 5px rgba(255, 255, 255, 0.25);
+			box-shadow: 0 0 0 4px #000000, 0 0 0 5px #111111;
 		}
 
 			#header .image.phone {
@@ -3848,9 +3866,18 @@ input, select, textarea {
 			-webkit-transform: translateX(0);
 			-ms-transform: translateX(0);
 			transform: translateX(0);
-			opacity: 1;
 			text-align: right;
-			margin: -3.5em 4em 0 0;
+			/*margin: -3.5em 4em 0 0;*/
+			background-color: #000000;
+			opacity: 1;
+			border-radius: 5%;
+		}
+
+		#header .content .boarder{
+			border:20px solid black;
+			justify-content: center;
+			text-align:center;
+			border-radius: 5%;
 		}
 
 			#header .content > :last-child {
@@ -3888,13 +3915,15 @@ input, select, textarea {
 				opacity: 1;
 			}
 
-		@media screen and (max-width: 1280px) {
-
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size2.svg");
+
 			}
 
-		}
+		/*@media screen and (max-width: 1280px) {
+
+
+
+		}*/
 
 		@media screen and (max-width: 980px) {
 
@@ -3940,10 +3969,6 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
-			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size3.svg");
-			}
 
 				#header h1 {
 					font-size: 2em;
@@ -4077,7 +4102,7 @@ input, select, textarea {
 	#footer {
 		background-color: #f7f7f7;
 		color: #999999;
-		padding: 4.5em 0 2.5em 0 ;
+		padding: 1.5em 0 0.5em 0 ;
 		color: #b0b0b0;
 		text-align: center;
 	}
