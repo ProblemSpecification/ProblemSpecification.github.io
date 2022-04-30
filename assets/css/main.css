@@ -2266,6 +2266,42 @@ input, select, textarea {
 		color: #e0e0e0;
 	}
 
+/* Getting the mail icon to work */
+	.fas {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
+
+	.fas:before {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		display: inline-block;
+		font-style: normal;
+		font-variant: normal;
+		text-rendering: auto;
+		line-height: 1;
+		text-transform: none !important;
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 400;
+	}
+
+			.fas > .label {
+				display: none;
+			}
+
+		.fas:before {
+			line-height: inherit;
+		}
+
+		.fas:before {
+			font-weight: 900;
+		}
+
+	.fas {
+		color: #e0e0e0;
+	}
+
 /* Image */
 .image {
 	width: 20%;
@@ -2618,6 +2654,10 @@ input, select, textarea {
 			}
 
 			ul.icons li .icon:before {
+				font-size: 1.75rem;
+			}
+
+			ul.icons li .fas:before { /* Fix size of mail font */ 
 				font-size: 1.75rem;
 			}
 
@@ -3762,6 +3802,11 @@ input, select, textarea {
 		#header .icon {
 			color: #999999;  /* Change Color of Icons in Header */
 		}
+
+		#header .fas {
+			color: #999999;  /* Change Color of Icons in Header */
+		}
+
 
 		#header .image {
 			box-shadow: 0 0 0 4px #000000, 0 0 0 5px #111111;

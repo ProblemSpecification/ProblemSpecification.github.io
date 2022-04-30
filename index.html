@@ -1,4 +1,4 @@
-<!DOCTYPE HTML> 
+<!DOCTYPE HTML>
 <!--
 	Fractal by HTML5 UP
 	html5up.net | @ajlkn
@@ -12,6 +12,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	</head>
 	<body class="is-preload">
 
@@ -21,6 +22,7 @@
 				<div class="image"><img src="images/profile.jpeg" alt="" /></div>
 				<div class="content">
 					<div class="boarder">
+						<!-- TODO figure out a way to include break out sections for current job-title and research interests -->
 					<h1><a href="#">Michael Dennis</a></h1>
 					a short bio that describes all the ways that I am cool and <br />
 					how you should hire me right now.  Adding a bunch of words <br />
@@ -29,9 +31,11 @@
 					interesting words</p>
 					</div>
 					<ul class="icons">
+						<li><a href="mailto:michael_dennis@cs.berkeley.edu" class="fas fa-envelope fa-xl"><span class="label">Email</span></a></li>
 						<li><a href="https://twitter.com/MichaelD1729" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://scholar.google.com/citations?user=WXXu26AAAAAJ&hl=en&authuser=1" class="fas fa-graduation-cap big-icon"><span class="label">Google Scholar</span></a></li>
 						<li><a href="https://github.com/MichaelDDennis" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://scholar.google.com/citations?user=WXXu26AAAAAJ&hl=en&authuser=1" class="icon brands fa-google"><span class="label">Google</span></a></li>
+						<!-- TODO make CV and set here to download <li><a href="https://github.com/MichaelDDennis" class="fas fa-download big-icon"><span class="label">CV</span></a></li> -->
 					</ul>
 				<!--<div class="image phone"> -->
 				<!--<div><div class="inner"><img src="images/screen.jpg" alt="" /></div></div> -->
@@ -41,403 +45,346 @@
 		<!-- Two -->
 			<section id="two" class="wrapper">
 				<header class="major">
-					<h2>Research</h2>
+					<!--
+					/* TODO incude cite link for each paper */
+				-->
+					<h2>Selected Papers</h2>
 				</header>
 				<div class="inner alt">
 					<section class="spotlight">
 						<div class="image"><img src="images/regret_s3.png" alt="" /></div>
 						<div class="content">
 							<h3>PAIRED</h3>
-							https://ai.googleblog.com/2021/03/paired-new-multi-agent-approach-for.html
-							Arxiv Link
-							NeurIPS Oral Link
-							News Coverage
-							Code in tensorflow,
-							Code in pytorch
+							<b> NeurIPS 2020 Oral (top 1% of submissions) </b>
+
+
 							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+
+							<div class="authors">
+								<b>Michael Dennis*</b>,
+								<a href="https://natashajaques.ai/"> Natasha Jaques*</a>,
+								<a href="https://eugenevinitsky.github.io/"> Eugene Vinitsky</a>,
+								<a href="https://bayen.berkeley.edu/alex-bayen"> Alexandre Bayen</a>,
+							  <a href="https://people.eecs.berkeley.edu/~russell/"> Stuart Russell</a>,
+								Andrew Critch,
+								<a href="https://people.eecs.berkeley.edu/~svlevine/"> Sergey Levine</a>
+							</div>
+
+							<div class="btn-links">
+								Resources:
+							<a class="btn btn-outline-primary btn-page-header btn-sm"
+							href="https://arxiv.org/abs/2012.02096" target="_blank" rel="noopener">
+							PDF
+							</a>
+
+							<!---<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename="/publication/paired/cite.bib">
+							  Cite
+							</a> -->
+
+							<a class="btn btn-outline-primary btn-page-header btn-sm"
+								href="https://www.youtube.com/channel/UCI6dkF8eNrCz6XiBJlV9fmw/videos"
+								target="_blank" rel="noopener">
+						    Demo Videos
+						  </a>
+
+							<a class="btn btn-outline-primary btn-page-header btn-sm"
+								href="https://github.com/google-research/google-research/tree/master/social_rl/adversarial_env"
+								target="_blank" rel="noopener">
+								Code (Tensorflow)
+							</a>
+
+							<a class="btn btn-outline-primary btn-page-header btn-sm"
+								href="https://github.com/ucl-dark/paired"
+								target="_blank" rel="noopener">
+								Code (Pytorch)
+							</a>
+
+						</div>
+
+						<div class="btn-links">
+							Reception:
+						  <a class="btn btn-outline-primary btn-page-header btn-sm"
+								href="https://neurips.cc/virtual/2020/public/poster_985e9a46e10005356bbaf194249f6856.html"
+								target="_blank" rel="noopener">
+						    NeurIPS Oral
+						  </a>
+
+						  <a class="btn btn-outline-primary btn-page-header btn-sm"
+								href="https://www.sciencemag.org/news/2021/01/who-needs-teacher-artificial-intelligence-designs-lesson-plans-itself"
+								target="_blank" rel="noopener">
+						    Science article
+						  </a>
+
+						  <a class="btn btn-outline-primary btn-page-header btn-sm"
+								href="https://ai.googleblog.com/2021/03/paired-new-multi-agent-approach-for.html"
+								target="_blank" rel="noopener">
+						    Google AI Blog
+						  </a>
+
+							  </div>
 						</div>
 					</section>
 					<section class="spotlight">
 						<div class="image"><img src="images/a_policies_snapshot.png" alt="" /></div>
 						<div class="content">
 							<h3>Adversarial Policies</h3>
-							website link: https://adversarialpolicies.github.io/
-							news link:
-							arxiv link:
-							ICLR link:
+							<b> ICLR 2020 </b> <br>
+							<b> NeurIPS 2019 DeepRL Workshop Talk (top 6% of accepted papers)  </b><br>
+							<b> ICML 2019 SPML Workshop Spotlight (top 6% of accepted papers)  </b> <br>
+
 							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+
+							<div class="authors">
+								<a href="https://www.gleave.me/"> Adam Gleave</a>,
+								<b>Michael Dennis</b>
+								<a href="http://decodyng.com/"> Cody Wild</a>,
+								<a href="https://scholar.google.com/citations?user=eSgXTkkAAAAJ&hl=en"> Neel Kant</a>,
+								<a href="https://people.eecs.berkeley.edu/~svlevine/"> Sergey Levine</a>,
+								<a href="https://people.eecs.berkeley.edu/~russell/"> Stuart Russell</a>
+							</div>
+
+							<div style="text-align:left"  class="btn-links">
+								Resources:
+							<a class="btn btn-outline-primary btn-page-header btn-sm"
+							href="https://arxiv.org/abs/1905.10615" target="_blank" rel="noopener">
+							PDF
+							</a>
+
+							<!---<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename="/publication/paired/cite.bib">
+								Cite
+							</a> -->
+
+							<a class="btn btn-outline-primary btn-page-header btn-sm"
+							href="https://adversarialpolicies.github.io/" target="_blank" rel="noopener">
+							Demo Videos
+							</a>
+
+							<a class="btn btn-outline-primary btn-page-header btn-sm"
+								href="https://github.com/humancompatibleai/adversarial-policies"
+								target="_blank" rel="noopener">
+								Code
+							</a>
+
+						</div>
+
+						<div style="text-align:left"   class="btn-links">
+							Reception:
+							<a class="btn btn-outline-primary btn-page-header btn-sm"
+								href="https://iclr.cc/virtual_2020/poster_HJgEMpVFwB.html"
+								target="_blank" rel="noopener">
+								ICLR
+							</a>
+
+							<a class="btn btn-outline-primary btn-page-header btn-sm"
+								href="https://slideslive.com/38922702/contributed-talk-adversarial-policies-attacking-deep-reinforcement-learning?ref=folder-70324"
+								target="_blank" rel="noopener">
+								NeurIPS DeepRL Talk
+							</a>
+
+							<a class="btn btn-outline-primary btn-page-header btn-sm"
+								href="https://icml.cc/Conferences/2019/ScheduleMultitrack?event=3526#wse-detail-5351"
+								target="_blank" rel="noopener">
+								ICML SPML Spotlight
+							</a>
+
+							<a class="btn btn-outline-primary btn-page-header btn-sm"
+								href="https://www.science.org/content/article/watch-ai-goalie-psych-out-its-opponent-most-hilarious-way"
+								target="_blank" rel="noopener">
+								Science article
+							</a>
+
+							<a class="btn btn-outline-primary btn-page-header btn-sm"
+								href="https://bair.berkeley.edu/blog/2020/03/27/attacks/"
+								target="_blank" rel="noopener">
+								BAIR Blog
+							</a>
+
 						</div>
 					</section>
+					<!-- On track for ICML, still needs code-->
 					<section class="spotlight">
 						<div class="image"><img src="images/ACCELL_Spotlight.png" alt="" /></div>
 						<div class="content">
 							<h3>ACCELL</h3>
-							https://accelagent.github.io/
+							<b>NeurIPS 2021 DeepRL Workshop</b>
+
 							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+
+							<div class="authors">
+								<a href="https://t.co/lQPsq7NlQ4"> Jack Parker-Holder</a>,
+								<a href="https://minch.co/">  Minqi Jiang</a>,
+								<b>Michael Dennis</b>
+								<a href="https://www.samvelyan.com/">  Mikayel Samvelyan</a>,
+								<a href="https://www.jakobfoerster.com/"> Jakob Foerster </a>,
+								<a href="https://www.egrefen.com/"> Edward Grefenstette</a>,
+								<a href="https://rockt.github.io/"> Tim Rocktäschel</a>
+							</div>
+
+ 						 					<div class="btn-links">
+ 						 						Resources:
+ 						 					<a class="btn btn-outline-primary btn-page-header btn-sm"
+ 						 					href="http://arxiv.org/abs/2203.01302" target="_blank" rel="noopener">
+ 						 					PDF
+ 						 					</a>
+
+ 						 					<!---<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename="/publication/paired/cite.bib">
+ 						 						Cite
+ 						 					</a> -->
+
+ 						 					<a class="btn btn-outline-primary btn-page-header btn-sm"
+ 						 					href="https://accelagent.github.io/" target="_blank" rel="noopener">
+ 						 					Interactive Demo
+ 						 					</a>
+
+ 						 				</div>
+
+ 						 				<div class="btn-links">
+ 						 					Reception:
+ 						 					<a class="btn btn-outline-primary btn-page-header btn-sm"
+ 						 						href="https://www.youtube.com/watch?v=povBDxUn1VQ&feature=youtu.be"
+ 						 						target="_blank" rel="noopener">
+ 						 						Youtube Discussion
+ 						 					</a>
+
+ 						 					<a class="btn btn-outline-primary btn-page-header btn-sm"
+ 						 						href="https://www.youtube.com/watch?v=16BsJI5I-Yw&feature=youtu.be"
+ 						 						target="_blank" rel="noopener">
+ 						 						Youtube Interview
+ 						 					</a>
+
+ 						 					<a class="btn btn-outline-primary btn-page-header btn-sm"
+ 						 						href="https://openreview.net/forum?id=3qGInPFqR0p"
+ 						 						target="_blank" rel="noopener">
+ 						 						NeurIPS DeepRL
+ 						 					</a>
+ 						 				</div>
+
 						</div>
+
+
 					</section>
+					<!-- still needs code -->
 					<section class="spotlight">
 						<div class="image"><img src="images/track_ref_robustPLR.png" alt="" /></div>
 						<div class="content">
 							<h3>Robust PLR</h3>
+							<b> NeurIPS 2021 </b>
+
 							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+
+							<div class="authors">
+								<a href="https://minch.co/">  Minqi Jiang*</a>,
+								<b>Michael Dennis*</b>
+								<a href="https://t.co/lQPsq7NlQ4"> Jack Parker-Holder</a>,
+								<a href="https://www.jakobfoerster.com/"> Jakob Foerster </a>,
+								<a href="https://www.egrefen.com/"> Edward Grefenstette</a>,
+								<a href="https://rockt.github.io/"> Tim Rocktäschel</a>
+							</div>
+
+											<div style="text-align:left"  class="btn-links">
+												Links:
+											<a class="btn btn-outline-primary btn-page-header btn-sm"
+											href="https://arxiv.org/abs/2110.02439" target="_blank" rel="noopener">
+											PDF
+											</a>
+											<a class="btn btn-outline-primary btn-page-header btn-sm"
+												href="https://neurips.cc/Conferences/2021/ScheduleMultitrack?event=26452"
+												target="_blank" rel="noopener">
+												NeurIPS
+											</a>
+										</div>
+
 						</div>
 					</section>
+					<!-- Not on Arxiv yet, on track for ICML, still needs code -->
 					<section class="spotlight">
 						<div class="image"><img src="images/samplr_spotlight.png" alt="" /></div>
 						<div class="content">
 							<h3>SAMPLR</h3>
+							<b> NeurIPS 2021 DeepRL Workshop </b>
 							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+
+						<div class="authors">
+							<a href="https://minch.co/">  Minqi Jiang</a>,
+							<b>Michael Dennis</b>
+							<a href="https://t.co/lQPsq7NlQ4"> Jack Parker-Holder</a>,
+							<a href="https://scholar.google.com/citations?user=I6aB-YUAAAAJ&hl=en"> Andrei Lupu</a>,
+							<a href="https://heiner.ai/blog/"> Heinrich Kuttler</a>,
+							<a href="https://www.egrefen.com/"> Edward Grefenstette</a>,
+							<a href="https://rockt.github.io/"> Tim Rocktäschel</a>,
+							<a href="https://www.jakobfoerster.com/"> Jakob Foerster </a>
 						</div>
+
+										<div class="btn-links">
+											Links:
+										<a class="btn btn-outline-primary btn-page-header btn-sm"
+										href="https://openreview.net/pdf?id=wYqLTy4wkor" target="_blank" rel="noopener">
+										PDF
+										</a>
+										<a class="btn btn-outline-primary btn-page-header btn-sm"
+											href="https://slideslive.com/38971048/grounding-aleatoric-uncertainty-in-unsupervised-environment-design?ref=speaker-28796"
+											target="_blank" rel="noopener">
+											NeurIPS 2021 DeepRL
+										</a>
+									</div>
+									</div>
 					</section>
-				</div>
+					<!--TODO should change picture -->
+					<section class="spotlight">
+						<div class="image"><img src="images/epic_spotlight.png" alt="" /></div>
+						<div class="content">
+							<h3>EPIC</h3>
+							<b> ICLR 2021 Spotlight (top 5% of submissions) </b>
+							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+
+						<div class="authors">
+							<a href="https://www.gleave.me/">  Adam Gleave</a>,
+							<b>Michael Dennis</b>
+							<a href="https://en.wikipedia.org/wiki/Shane_Legg"> Shane Legg</a>,
+							<a href="https://people.eecs.berkeley.edu/~russell/">  Stuart Russell</a>,
+							<a href="https://jan.leike.name/"> Jan Leike</a>
+						</div>
+
+										<div style="text-align:left"  class="btn-links">
+											Resources:
+										<a class="btn btn-outline-primary btn-page-header btn-sm"
+										href="https://arxiv.org/abs/2006.13900" target="_blank" rel="noopener">
+										PDF
+										</a>
+										<a class="btn btn-outline-primary btn-page-header btn-sm"
+										href="https://github.com/HumanCompatibleAI/evaluating-rewards" target="_blank" rel="noopener">
+										Code
+										</a>
+									</div>
+									<div style="text-align:left"  class="btn-links">
+										Reception:
+										<a class="btn btn-outline-primary btn-page-header btn-sm"
+											href="https://bair.berkeley.edu/blog/2021/04/20/epic/"
+											target="_blank" rel="noopener">
+											BAIR Blog
+										</a>
+										<a class="btn btn-outline-primary btn-page-header btn-sm"
+											href="https://iclr.cc/virtual/2021/spotlight/3418"
+											target="_blank" rel="noopener">
+											ICLR 2021 Spotlight
+										</a>
+										<a class="btn btn-outline-primary btn-page-header btn-sm"
+											href="https://slideslive.com/38940987/quantifying-differences-in-reward-functions?ref=account-folder-62083-folders"
+											target="_blank" rel="noopener">
+											NeurIPS 2020 DeepRL workshop
+										</a>
+									</div>
+									</div>
+					</section>
+
+					<!-- eventually do sub-sections you can select at the top and
+					make a section for coopoeration, include the following:
+					A new formalism, method and open issues for zero-shot coordination
+					Accumulating Risk Capital Through Investing in Cooperation
+					-->
+
 			</section>
 
-		<!-- Three -->
-		<!--	<section id="three" class="wrapper style2 special">
-				<header class="major">
-					<h2>Magna leo sapien gravida</h2>
-					<p>Gravida at leo elementum elit fusce accumsan dui libero, quis vehicula<br />
-					lectus ultricies eu. In convallis amet leo sapien iaculis efficitur.</p>
-				</header>
-				<ul class="actions special">
-					<li><a href="#" class="button primary icon solid fa-download">Download</a></li>
-					<li><a href="#" class="button">Learn More</a></li>
-				</ul>
-			</section> -->
-
-			<!-- One -->
-			<!--	<section id="one" class="wrapper style2 special">
-					<header class="major">
-						<h2>Sed ipsum magna lorem tempus amet<br />
-						vehicula et gravida elementum</h2>
-					</header>
-					<ul class="icons major">
-						<li><span class="icon solid fa-camera-retro"><span class="label">Shoot</span></span></li>
-						<li><span class="icon solid fa-sync"><span class="label">Process</span></span></li>
-						<li><span class="icon solid fa-cloud"><span class="label">Upload</span></span></li>
-					</ul>
-				</section>-->
-
-
-		<!-- Four -->
-		<!--
-			<section id="four" class="wrapper">
-				<div class="inner">
-
-					<header class="major">
-						<h2>Elements</h2>
-					</header>
-
-					<section>
-						<h4>Text</h4>
-						<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-						This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-						This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-						<hr />
-						<header>
-							<h4>Heading with a Subtitle</h4>
-							<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-						</header>
-						<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-						<header>
-							<h5>Heading with a Subtitle</h5>
-							<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-						</header>
-						<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-						<hr />
-						<h2>Heading Level 2</h2>
-						<h3>Heading Level 3</h3>
-						<h4>Heading Level 4</h4>
-						<h5>Heading Level 5</h5>
-						<h6>Heading Level 6</h6>
-						<hr />
-						<h5>Blockquote</h5>
-						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-						<h5>Preformatted</h5>
-						<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-  print 'Iteration ' + i;
-  deck.shuffle();
-  i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-					</section>
-
-					<section>
-						<h4>Lists</h4>
-						<div class="row">
-							<div class="col-6 col-12-medium">
-								<h5>Unordered</h5>
-								<ul>
-									<li>Dolor pulvinar etiam.</li>
-									<li>Sagittis adipiscing.</li>
-									<li>Felis enim feugiat.</li>
-								</ul>
-								<h5>Alternate</h5>
-								<ul class="alt">
-									<li>Dolor pulvinar etiam.</li>
-									<li>Sagittis adipiscing.</li>
-									<li>Felis enim feugiat.</li>
-								</ul>
-							</div>
-							<div class="col-6 col-12-medium">
-								<h5>Ordered</h5>
-								<ol>
-									<li>Dolor pulvinar etiam.</li>
-									<li>Etiam vel felis viverra.</li>
-									<li>Felis enim feugiat.</li>
-									<li>Dolor pulvinar etiam.</li>
-									<li>Etiam vel felis lorem.</li>
-									<li>Felis enim et feugiat.</li>
-								</ol>
-								<h5>Icons</h5>
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								</ul>
-							</div>
-						</div>
-						<h5>Actions</h5>
-						<div class="row">
-							<div class="col-6 col-12-medium">
-								<ul class="actions">
-									<li><a href="#" class="button primary">Default</a></li>
-									<li><a href="#" class="button">Default</a></li>
-								</ul>
-								<ul class="actions small">
-									<li><a href="#" class="button primary small">Small</a></li>
-									<li><a href="#" class="button small">Small</a></li>
-								</ul>
-								<ul class="actions stacked">
-									<li><a href="#" class="button primary">Default</a></li>
-									<li><a href="#" class="button">Default</a></li>
-								</ul>
-								<ul class="actions stacked">
-									<li><a href="#" class="button primary small">Small</a></li>
-									<li><a href="#" class="button small">Small</a></li>
-								</ul>
-							</div>
-							<div class="col-6 col-12-medium">
-								<ul class="actions stacked">
-									<li><a href="#" class="button primary fit">Default</a></li>
-									<li><a href="#" class="button fit">Default</a></li>
-								</ul>
-								<ul class="actions stacked">
-									<li><a href="#" class="button primary small fit">Small</a></li>
-									<li><a href="#" class="button small fit">Small</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
-
-					<section>
-						<h4>Table</h4>
-						<h5>Default</h5>
-						<div class="table-wrapper">
-							<table>
-								<thead>
-									<tr>
-										<th>Name</th>
-										<th>Description</th>
-										<th>Price</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Item One</td>
-										<td>Ante turpis integer aliquet porttitor.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>Item Two</td>
-										<td>Vis ac commodo adipiscing arcu aliquet.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>Item Three</td>
-										<td> Morbi faucibus arcu accumsan lorem.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>Item Four</td>
-										<td>Vitae integer tempus condimentum.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>Item Five</td>
-										<td>Ante turpis integer aliquet porttitor.</td>
-										<td>29.99</td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="2"></td>
-										<td>100.00</td>
-									</tr>
-								</tfoot>
-							</table>
-						</div>
-
-						<h5>Alternate</h5>
-						<div class="table-wrapper">
-							<table class="alt">
-								<thead>
-									<tr>
-										<th>Name</th>
-										<th>Description</th>
-										<th>Price</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Item One</td>
-										<td>Ante turpis integer aliquet porttitor.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>Item Two</td>
-										<td>Vis ac commodo adipiscing arcu aliquet.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>Item Three</td>
-										<td> Morbi faucibus arcu accumsan lorem.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>Item Four</td>
-										<td>Vitae integer tempus condimentum.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>Item Five</td>
-										<td>Ante turpis integer aliquet porttitor.</td>
-										<td>29.99</td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="2"></td>
-										<td>100.00</td>
-									</tr>
-								</tfoot>
-							</table>
-						</div>
-					</section>
-
-					<section>
-						<h4>Buttons</h4>
-						<ul class="actions">
-							<li><a href="#" class="button primary">Primary</a></li>
-							<li><a href="#" class="button">Default</a></li>
-						</ul>
-						<ul class="actions">
-							<li><a href="#" class="button large">Large</a></li>
-							<li><a href="#" class="button">Default</a></li>
-							<li><a href="#" class="button small">Small</a></li>
-						</ul>
-						<ul class="actions fit">
-							<li><a href="#" class="button fit">Fit</a></li>
-							<li><a href="#" class="button primary fit">Fit</a></li>
-							<li><a href="#" class="button fit">Fit</a></li>
-						</ul>
-						<ul class="actions fit small">
-							<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-							<li><a href="#" class="button fit small">Fit + Small</a></li>
-							<li><a href="#" class="button primary fit small">Fit + Small</a></li>
-						</ul>
-						<ul class="actions">
-							<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-							<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-						</ul>
-						<ul class="actions">
-							<li><span class="button primary disabled">Disabled</span></li>
-							<li><span class="button disabled">Disabled</span></li>
-						</ul>
-					</section>
-
-					<section>
-						<h4>Form</h4>
-						<form method="post" action="#">
-							<div class="row gtr-uniform">
-								<div class="col-6 col-12-xsmall">
-									<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-								</div>
-								<div class="col-6 col-12-xsmall">
-									<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-								</div>
-								<div class="col-12">
-									<select name="demo-category" id="demo-category">
-										<option value="">- Category -</option>
-										<option value="1">Manufacturing</option>
-										<option value="1">Shipping</option>
-										<option value="1">Administration</option>
-										<option value="1">Human Resources</option>
-									</select>
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-									<label for="demo-priority-low">Low</label>
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="radio" id="demo-priority-normal" name="demo-priority">
-									<label for="demo-priority-normal">Normal</label>
-								</div>
-								<div class="col-4 col-12-small">
-									<input type="radio" id="demo-priority-high" name="demo-priority">
-									<label for="demo-priority-high">High</label>
-								</div>
-								<div class="col-6 col-12-small">
-									<input type="checkbox" id="demo-copy" name="demo-copy">
-									<label for="demo-copy">Email me a copy</label>
-								</div>
-								<div class="col-6 col-12-small">
-									<input type="checkbox" id="demo-human" name="demo-human" checked>
-									<label for="demo-human">Not a robot</label>
-								</div>
-								<div class="col-12">
-									<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-								</div>
-								<div class="col-12">
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</div>
-							</div>
-						</form>
-					</section>
-
-					<section>
-						<h4>Image</h4>
-						<h5>Fit</h5>
-						<div class="box alt">
-							<div class="row gtr-uniform">
-								<div class="col-12"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
-								<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
-							</div>
-						</div>
-						<h5>Left &amp; Right</h5>
-						<p><span class="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						<p><span class="image right"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-					</section>
-
-				</div>
-			</section>
-		-->
 
 		<!-- Footer -->
 			<footer id="footer">
