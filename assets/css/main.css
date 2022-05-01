@@ -2657,7 +2657,7 @@ input, select, textarea {
 				font-size: 1.75rem;
 			}
 
-			ul.icons li .fas:before { /* Fix size of mail font */ 
+			ul.icons li .fas:before { /* Fix size of mail font */
 				font-size: 1.75rem;
 			}
 
@@ -2832,7 +2832,8 @@ input, select, textarea {
 				margin-bottom: 0;
 			}
 
-		.spotlight:nth-child(2n) {
+			/* flip every other row*/
+		/* .spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;
 			-ms-flex-direction: row-reverse;
@@ -2845,7 +2846,7 @@ input, select, textarea {
 
 			.spotlight:nth-child(2n) .content {
 				text-align: right;
-			}
+			}*/
 
 	@media screen and (max-width: 736px) and (orientation: landscape) {
 
@@ -2876,7 +2877,7 @@ input, select, textarea {
 
 			.spotlight .content {
 				width: 100%;
-				text-align: center !important;
+				text-align: left !important;
 			}
 
 	}
@@ -3916,16 +3917,20 @@ input, select, textarea {
 			background-color: #000000;
 			opacity: 1;
 			border-radius: 5%;
+			justify-content: center;
+			text-align: left;/*bio justify */
+
+			width: 40%
 		}
 
 		#header .content .boarder{
 			border:20px solid black;
 			justify-content: center;
-			text-align:center;
 			border-radius: 5%;
 		}
 
 			#header .content > :last-child {
+
 				margin-bottom: 0;
 			}
 
@@ -3979,6 +3984,7 @@ input, select, textarea {
 
 				#header .content {
 					margin: -2em 4em 0 0;
+					text-align: left;
 				}
 
 					#header .content .actions {
@@ -4003,7 +4009,6 @@ input, select, textarea {
 				#header .content {
 					display: block;
 					width: 100%;
-					text-align: center;
 					margin: 0 0 2em 0;
 				}
 

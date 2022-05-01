@@ -23,18 +23,36 @@
 				<div class="content">
 					<div class="boarder">
 						<!-- TODO figure out a way to include break out sections for current job-title and research interests -->
-					<h1><a href="#">Michael Dennis</a></h1>
-					a short bio that describes all the ways that I am cool and <br />
-					how you should hire me right now.  Adding a bunch of words <br />
-					to the end of it to see how it looks when there are a bunch <br />
-					of words.  If I have this many words hopefully they will be <br />
-					interesting words</p>
+					<h1 style = "text-align: center"><a href="#">Michael Dennis</a></h1>
+							Real world environments are complicated, too complicated to be completely
+							specified in any simulation or model. I research <b> Problem Speceification </b> -- studying the boundry between what
+							complexity must be described, and what can be artificially generated.
+							<br>
+							<br>
+							To this end we have formalized the problem of
+							<a href="https://arxiv.org/abs/2012.02096" target="_blank" rel="noopener noreferrer">Unsupervised Environment Design (UED)</a>,
+							 which aims to build complex and challenging environments automaitcally to
+							 promote
+							 <a href="https://arxiv.org/abs/2203.01302" target="_blank" rel="noopener noreferrer">effient learning
+								 </a> and
+								 <a href="https://arxiv.org/abs/2110.02439" target="_blank" rel="noopener noreferrer">transfer</a> .  This framework has deep connections to
+							 decision theory, which allow us to make gurantees about how the resulting policies
+							 would preform in huamn-designed environments, without having ever trained on them.
+							<br>
+							<br>
+							I am currently a final year PhD candidate at
+							UC Berkeley's Center for
+							 Human Compatible AI(<a href="humancompatible.ai" target="_blank" rel="noopener noreferrer">CHAI</a>) advised by Stuart Russell. I also have an
+							 extensive background in computer science theory and <a href="https://arxiv.org/abs/1711.00068" target="_blank" rel="noopener noreferrer">computational geometry</a>.
+							<br>
+							<br>
+							<br>
 					</div>
 					<ul class="icons">
-						<li><a href="mailto:michael_dennis@cs.berkeley.edu" class="fas fa-envelope fa-xl"><span class="label">Email</span></a></li>
-						<li><a href="https://twitter.com/MichaelD1729" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://scholar.google.com/citations?user=WXXu26AAAAAJ&hl=en&authuser=1" class="fas fa-graduation-cap big-icon"><span class="label">Google Scholar</span></a></li>
-						<li><a href="https://github.com/MichaelDDennis" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:michael_dennis@cs.berkeley.edu" target="_blank" rel="noopener noreferrer" class="fas fa-envelope fa-xl"><span class="label">Email</span></a></li>
+						<li><a href="https://twitter.com/MichaelD1729" target="_blank" rel="noopener noreferrer" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://scholar.google.com/citations?user=WXXu26AAAAAJ&hl=en&authuser=1" target="_blank" rel="noopener noreferrer" class="fas fa-graduation-cap big-icon"><span class="label">Google Scholar</span></a></li>
+						<li><a href="https://github.com/MichaelDDennis" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"><span class="label">Github</span></a></li>
 						<!-- TODO make CV and set here to download <li><a href="https://github.com/MichaelDDennis" class="fas fa-download big-icon"><span class="label">CV</span></a></li> -->
 					</ul>
 				<!--<div class="image phone"> -->
@@ -54,20 +72,35 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/regret_s3.png" alt="" /></div>
 						<div class="content">
-							<h3>PAIRED</h3>
+							<h3 style = "text-align: center">PAIRED</h3>
 							<b> NeurIPS 2020 Oral (top 1% of submissions) </b>
+							<p>
+								We formally define Unsupervised Environment Design (UED), as the problem of
+								automatically building environments to promote learning and transfer.
+								We show that UED has deep connections to the field of decisions under ignorance,
+								and, borrowing from that field, aim to find high regret environments to promote efficent
+								learning and transfer.
+								<br>
+								<br>
+								Protagonist Antagonist Induced Regret Environment Design (PAIRED) provably finds
+								minimax regret policies in equalibrium by training an adversary to geneterate
+								levels which are diffuclt for the protagonist agent but easy for an antagonist agent.
+								<br>
+								<br>
+								This motivates the adversary to <b>build difficult but solveable levels</b>,
+								like the maze to the left, as an unsolveable maze is difficult for the antagonist.
 
 
-							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+							</p>
 
 							<div class="authors">
 								<b>Michael Dennis*</b>,
-								<a href="https://natashajaques.ai/"> Natasha Jaques*</a>,
-								<a href="https://eugenevinitsky.github.io/"> Eugene Vinitsky</a>,
-								<a href="https://bayen.berkeley.edu/alex-bayen"> Alexandre Bayen</a>,
-							  <a href="https://people.eecs.berkeley.edu/~russell/"> Stuart Russell</a>,
+								<a href="https://natashajaques.ai/" target="_blank" rel="noopener noreferrer"> Natasha Jaques*</a>,
+								<a href="https://eugenevinitsky.github.io/" target="_blank" rel="noopener noreferrer"> Eugene Vinitsky</a>,
+								<a href="https://bayen.berkeley.edu/alex-bayen" target="_blank" rel="noopener noreferrer"> Alexandre Bayen</a>,
+							  <a href="https://people.eecs.berkeley.edu/~russell/" target="_blank" rel="noopener noreferrer"> Stuart Russell</a>,
 								Andrew Critch,
-								<a href="https://people.eecs.berkeley.edu/~svlevine/"> Sergey Levine</a>
+								<a href="https://people.eecs.berkeley.edu/~svlevine/" target="_blank" rel="noopener noreferrer"> Sergey Levine</a>
 							</div>
 
 							<div class="btn-links">
@@ -127,20 +160,32 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/a_policies_snapshot.png" alt="" /></div>
 						<div class="content">
-							<h3>Adversarial Policies</h3>
+							<h3 style = "text-align: center">Adversarial Policies</h3>
 							<b> ICLR 2020 </b> <br>
 							<b> NeurIPS 2019 DeepRL Workshop Talk (top 6% of accepted papers)  </b><br>
 							<b> ICML 2019 SPML Workshop Spotlight (top 6% of accepted papers)  </b> <br>
 
-							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+							<p>
+								Deep reinforcement learning (RL) policies are known to be vulnerable to adversarial perturbations to their observations, similar to adversarial examples for classifiers.
+								However, an attacker is not usually able to directly modify another agent’s observations. This might lead one to wonder: is it possible to attack an RL agent simply
+								by choosing an adversarial policy acting in a multi-agent environment so as to
+								create natural observations that are adversarial? <br><br>
+
+								 We demonstrate the existence of
+								adversarial policies in zero-sum games between simulated humanoid robots, against
+								 state-of-the-art victims. As
+	 							shown in our <a
+							 href="https://adversarialpolicies.github.io/" target="_blank" rel="noopener">demo videos</a>, the adversarial policies
+								 reliably and dramatically win against the victims with seemingly random and uncoordinated behavior.
+							</p>
 
 							<div class="authors">
-								<a href="https://www.gleave.me/"> Adam Gleave</a>,
+								<a href="https://www.gleave.me/" target="_blank" rel="noopener noreferrer"> Adam Gleave</a>,
 								<b>Michael Dennis</b>
-								<a href="http://decodyng.com/"> Cody Wild</a>,
-								<a href="https://scholar.google.com/citations?user=eSgXTkkAAAAJ&hl=en"> Neel Kant</a>,
-								<a href="https://people.eecs.berkeley.edu/~svlevine/"> Sergey Levine</a>,
-								<a href="https://people.eecs.berkeley.edu/~russell/"> Stuart Russell</a>
+								<a href="http://decodyng.com/" target="_blank" rel="noopener noreferrer"> Cody Wild</a>,
+								<a href="https://scholar.google.com/citations?user=eSgXTkkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"> Neel Kant</a>,
+								<a href="https://people.eecs.berkeley.edu/~svlevine/" target="_blank" rel="noopener noreferrer"> Sergey Levine</a>,
+								<a href="https://people.eecs.berkeley.edu/~russell/" target="_blank" rel="noopener noreferrer"> Stuart Russell</a>
 							</div>
 
 							<div style="text-align:left"  class="btn-links">
@@ -205,19 +250,37 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/ACCELL_Spotlight.png" alt="" /></div>
 						<div class="content">
-							<h3>ACCELL</h3>
+							<h3 style = "text-align: center">ACCELL</h3>
 							<b>NeurIPS 2021 DeepRL Workshop</b>
 
-							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+							<p>
+									Two important insights in Unsupervised Environment Design (UED) are:
+									<ul>
+										<li> <b>High Regret Levels</b> promote efficent learning and transfer  (See <a href="https://arxiv.org/abs/2012.02096" target="_blank" rel="noopener noreferrer">PAIRED</a>, <a href="https://arxiv.org/abs/2110.02439"target="_blank" rel="noopener noreferrer">Robust PLR</a>)</li>
+										<li> <b>Evolution</b> is more efficent at optimizing environments than RL  (See <a href="https://arxiv.org/abs/1901.01753" target="_blank" rel="noopener noreferrer">POET</a>) </li>
+									</ul>
+									We combine these two threads, using currating level edits to maximize regret, and allowing evolution to compound this effect over time. </br>
+
+									<b>ACCELL achieves state of the art performance in every domain tested</b> including:
+									<ul>
+									 <li> Bipedal Walker (used in POET)</li>
+									 <li> Minigrid and Car Racing environments (used in PAIRED and Robust PLR) </li>
+									</ul>
+
+									Stress test our method yourself with our <a
+									href="https://accelagent.github.io/" target="_blank" rel="noopener"> interactive demo right in your browser</a>!
+
+
+							</p>
 
 							<div class="authors">
-								<a href="https://t.co/lQPsq7NlQ4"> Jack Parker-Holder</a>,
-								<a href="https://minch.co/">  Minqi Jiang</a>,
+								<a href="https://t.co/lQPsq7NlQ4" target="_blank" rel="noopener noreferrer"> Jack Parker-Holder</a>,
+								<a href="https://minch.co/" target="_blank" rel="noopener noreferrer">  Minqi Jiang</a>,
 								<b>Michael Dennis</b>
-								<a href="https://www.samvelyan.com/">  Mikayel Samvelyan</a>,
-								<a href="https://www.jakobfoerster.com/"> Jakob Foerster </a>,
-								<a href="https://www.egrefen.com/"> Edward Grefenstette</a>,
-								<a href="https://rockt.github.io/"> Tim Rocktäschel</a>
+								<a href="https://www.samvelyan.com/" target="_blank" rel="noopener noreferrer">  Mikayel Samvelyan</a>,
+								<a href="https://www.jakobfoerster.com/" target="_blank" rel="noopener noreferrer"> Jakob Foerster </a>,
+								<a href="https://www.egrefen.com/" target="_blank" rel="noopener noreferrer"> Edward Grefenstette</a>,
+								<a href="https://rockt.github.io/" target="_blank" rel="noopener noreferrer"> Tim Rocktäschel</a>
 							</div>
 
  						 					<div class="btn-links">
@@ -267,18 +330,30 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/track_ref_robustPLR.png" alt="" /></div>
 						<div class="content">
-							<h3>Robust PLR</h3>
+							<h3 style = "text-align: center">Robust PLR</h3>
 							<b> NeurIPS 2021 </b>
 
-							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+							<p>
+								Unsupervised Environment Deesign (UED) is a promising technique to accelerate training and promote transfer performance.
+								In this work we study two classes of technqies for UED, <b>active design</b> like PAIRED and <b>passive curration</b> like PLR, casting them into one framework of Duel Curriculem Design (DCD).
+								The DCD allows us to extend regret-based gurantees to combinations of existing frameworks.
+								<br>
+								<br>
+								Moreover, the theory suggests a counterintuitive conclusion: <br>
+								PLR can be improved by training on <b>less data</b>, which we call Robust PLR.<br>
+								essentailly UED methods should focus on quality over quantity
+								<br>
+								<br>
+								We validate Robust PLR emperically, showing it achieves state of the art in challenging transfer tasks.
+							</p>
 
 							<div class="authors">
-								<a href="https://minch.co/">  Minqi Jiang*</a>,
+								<a href="https://minch.co/" target="_blank" rel="noopener noreferrer">  Minqi Jiang*</a>,
 								<b>Michael Dennis*</b>
-								<a href="https://t.co/lQPsq7NlQ4"> Jack Parker-Holder</a>,
-								<a href="https://www.jakobfoerster.com/"> Jakob Foerster </a>,
-								<a href="https://www.egrefen.com/"> Edward Grefenstette</a>,
-								<a href="https://rockt.github.io/"> Tim Rocktäschel</a>
+								<a href="https://t.co/lQPsq7NlQ4" target="_blank" rel="noopener noreferrer"> Jack Parker-Holder</a>,
+								<a href="https://www.jakobfoerster.com/" target="_blank" rel="noopener noreferrer"> Jakob Foerster </a>,
+								<a href="https://www.egrefen.com/" target="_blank" rel="noopener noreferrer"> Edward Grefenstette</a>,
+								<a href="https://rockt.github.io/" target="_blank" rel="noopener noreferrer"> Tim Rocktäschel</a>
 							</div>
 
 											<div style="text-align:left"  class="btn-links">
@@ -288,7 +363,7 @@
 											PDF
 											</a>
 											<a class="btn btn-outline-primary btn-page-header btn-sm"
-												href="https://neurips.cc/Conferences/2021/ScheduleMultitrack?event=26452"
+												href="https://slideslive.com/38968339/replayguided-adversarial-environment-design?ref=speaker-24021"
 												target="_blank" rel="noopener">
 												NeurIPS
 											</a>
@@ -300,19 +375,25 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/samplr_spotlight.png" alt="" /></div>
 						<div class="content">
-							<h3>SAMPLR</h3>
+							<h3 style = "text-align: center"> SAMPLR</h3>
 							<b> NeurIPS 2021 DeepRL Workshop </b>
-							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+							<p>
+							 	For a policy to archive good performance it often needs to internalize the probabilities of certain events which are aleatorically uncertain -- the chance the next card is an ace, the next coin flip turns up heads, or there is rain on the next day.
+								However, curriculum techniques such as Unsupervised Environment Design (UED), which are often instrumenal to the policies performance, function precisely by changing these distributions durring training to focus on the most informative experiences, we call this effect curriculum induced covarient shfit (CICS).
+								CICS can cause the agent to overestimate the probability of the rare events the curriculum prioritized, thus internalizing incorrect probabilities and making wrong decisions.
+								SAMPELR corrects for this bias, without changing the curriculum distributions, by correcting the value-estimate to be unbiased with respect to the true distribution of aleatoric parameters.
+								Thus we mainatain the ability of the curriculum to sample informative experience, while correcting the updates from that experience to correct for the CISC the curriculum introduced.
+							</p>
 
 						<div class="authors">
-							<a href="https://minch.co/">  Minqi Jiang</a>,
+							<a href="https://minch.co/" target="_blank" rel="noopener noreferrer">  Minqi Jiang</a>,
 							<b>Michael Dennis</b>
-							<a href="https://t.co/lQPsq7NlQ4"> Jack Parker-Holder</a>,
-							<a href="https://scholar.google.com/citations?user=I6aB-YUAAAAJ&hl=en"> Andrei Lupu</a>,
-							<a href="https://heiner.ai/blog/"> Heinrich Kuttler</a>,
-							<a href="https://www.egrefen.com/"> Edward Grefenstette</a>,
-							<a href="https://rockt.github.io/"> Tim Rocktäschel</a>,
-							<a href="https://www.jakobfoerster.com/"> Jakob Foerster </a>
+							<a href="https://t.co/lQPsq7NlQ4" target="_blank" rel="noopener noreferrer"> Jack Parker-Holder</a>,
+							<a href="https://scholar.google.com/citations?user=I6aB-YUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"> Andrei Lupu</a>,
+							<a href="https://heiner.ai/blog/" target="_blank" rel="noopener noreferrer"> Heinrich Kuttler</a>,
+							<a href="https://www.egrefen.com/" target="_blank" rel="noopener noreferrer"> Edward Grefenstette</a>,
+							<a href="https://rockt.github.io/" target="_blank" rel="noopener noreferrer"> Tim Rocktäschel</a>,
+							<a href="https://www.jakobfoerster.com/" target="_blank" rel="noopener noreferrer"> Jakob Foerster </a>
 						</div>
 
 										<div class="btn-links">
@@ -333,16 +414,33 @@
 					<section class="spotlight">
 						<div class="image"><img src="images/epic_spotlight.png" alt="" /></div>
 						<div class="content">
-							<h3>EPIC</h3>
+							<h3 style = "text-align: center">EPIC</h3>
 							<b> ICLR 2021 Spotlight (top 5% of submissions) </b>
-							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
+							<p>
+							  The evaluation of reward learning technqiues, such as IRL, have traditionally rellied on evaluating
+								the behavior of a policy optimizing the learned reward.  This process is slow, fails when the policy optimiztion fails, and
+							  restricts our evaulation to test environments.
+								<br>
+								<br>
+								Equivalent-Policy Invariant Comparison (EPIC) distance evaluates reward functions directly, quickly, and reliably -- without requiring policy optimization.
+								<br>
+								<br>
+								Moreover, EPIC is:
+								<ul>
+									<li>Invariant to reward shaping</li>
+									<li>Invariant reward scaling</li>
+									<li>Bounds the regret incured by a policy against the true reward function</li>
+									<li>Invariant to dynamics, so regret bound applies to all enviroments</li>
+								</ul>
+
+								</p>
 
 						<div class="authors">
-							<a href="https://www.gleave.me/">  Adam Gleave</a>,
+							<a href="https://www.gleave.me/" target="_blank" rel="noopener noreferrer">  Adam Gleave</a>,
 							<b>Michael Dennis</b>
-							<a href="https://en.wikipedia.org/wiki/Shane_Legg"> Shane Legg</a>,
-							<a href="https://people.eecs.berkeley.edu/~russell/">  Stuart Russell</a>,
-							<a href="https://jan.leike.name/"> Jan Leike</a>
+							<a href="https://en.wikipedia.org/wiki/Shane_Legg" target="_blank" rel="noopener noreferrer"> Shane Legg</a>,
+							<a href="https://people.eecs.berkeley.edu/~russell/" target="_blank" rel="noopener noreferrer">  Stuart Russell</a>,
+							<a href="https://jan.leike.name/" target="_blank" rel="noopener noreferrer"> Jan Leike</a>
 						</div>
 
 										<div style="text-align:left"  class="btn-links">
