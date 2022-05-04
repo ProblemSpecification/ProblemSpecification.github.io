@@ -388,7 +388,10 @@
 							<b> NeurIPS 2021 DeepRL Workshop </b>
 							<p>
 								For a policy to achieve good performance it often needs to internalize the probabilities of uncertain events -- the chance the next card is an ace, the next coin flip turns up heads, or there is rain on the next day.
-								However, curriculum techniques such as Unsupervised Environment Design (UED), which are often instrumental to the policies' performance, function precisely by changing these distributions during training to focus on the most informative experiences. We call this effect curriculum induced covariate shift (CICS).
+								However, curriculum techniques such as Unsupervised Environment Design (UED),
+								 which are often instrumental to the policies' performance, function precisely by
+								 changing these distributions during training to focus on the most informative experiences.
+								 We call this effect curriculum induced covariate shift (CICS).
 								CICS can cause the agent to overestimate the probability of the rare events the curriculum prioritized, thus internalizing incorrect probabilities and making wrong decisions.
 								SAMPLR corrects for this bias, without changing the curriculum distributions, by correcting the value-estimate to be unbiased with respect to the true distribution of aleatoric parameters.
 								Thus we maintain the ability of the curriculum to sample informative experience, while correcting the updates from that experience to correct for the CISC the curriculum introduced.
