@@ -270,7 +270,7 @@
 									In this work we combine these two threads, curating level edits to maximize regret, and allowing evolution to compound this effect over time.
 								 </br>
 
-									<b>ACCELL achieves state of the art performance in channgling domains</b> including:
+									<b>ACCEL achieves state of the art performance in channgling domains</b> including:
 									<ul>
 									 <li> Bipedal Walker (used in POET)</li>
 									 <li> Minigrid environments (used in PAIRED and Robust PLR) </li>
@@ -344,7 +344,7 @@
 
 							<p>
 								Unsupervised Environment Design (UED) is a promising technique to accelerate training and promote transfer performance.
-								In this work we study two classes of techniques for UED, <b>active design</b> like PAIRED and <b>passive curation</b> like PLR, casting them into one framework of Duel Curriculum Design (DCD).
+								In this work we study two classes of techniques for UED, <b>active design</b> like PAIRED and <b>passive curation</b> like PLR, casting them into one framework of Dual Curriculum Design (DCD).
 								The DCD allows us to extend regret-based guarantees to combinations of existing frameworks.
 								<br>
 								<br>
@@ -388,7 +388,7 @@
 							<b> NeurIPS 2021 DeepRL Workshop </b>
 							<p>
 								For a policy to achieve good performance it often needs to internalize the probabilities of uncertain events -- the chance the next card is an ace, the next coin flip turns up heads, or there is rain on the next day.
-								However, curriculum techniques such as Unsupervised Environment Design (UED), which are often instrumental to the policies performance, function precisely by changing these distributions during training to focus on the most informative experiences, we call this effect curriculum induced covariate shift (CICS).
+								However, curriculum techniques such as Unsupervised Environment Design (UED), which are often instrumental to the policies' performance, function precisely by changing these distributions during training to focus on the most informative experiences. We call this effect curriculum induced covariate shift (CICS).
 								CICS can cause the agent to overestimate the probability of the rare events the curriculum prioritized, thus internalizing incorrect probabilities and making wrong decisions.
 								SAMPLR corrects for this bias, without changing the curriculum distributions, by correcting the value-estimate to be unbiased with respect to the true distribution of aleatoric parameters.
 								Thus we maintain the ability of the curriculum to sample informative experience, while correcting the updates from that experience to correct for the CISC the curriculum introduced.
